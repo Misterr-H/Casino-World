@@ -48,7 +48,8 @@ int main() {
 		cout<<"Do you want to play again?(y/n): ";
 		cin>>choice;
 	}while(choice=='y' || choice=='Y');
-	cout<<"\n\nThanks for playing. Your balance is $"<<balance;
+	cout<<"\n\nThanks for playing. Your balance is $"<<balance<<"\n\n\n";
+	system("PAUSE");
 	
 	return 0;
 }
